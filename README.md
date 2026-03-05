@@ -2,11 +2,11 @@
 
 Nonlinear multilevel spline modeling for Python.
 
-[![Version](https://img.shields.io/badge/version-0.1.3-blue.svg)](https://github.com/causalfragility-lab/MultiSpline-Python)
+[![Version](https://img.shields.io/badge/version-0.1.4-blue.svg)](https://github.com/causalfragility-lab/MultiSpline-Python)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
 
-**Version:** 0.1.3
+**Version:** 0.1.4
 **License:** MIT
 **PyPI:** https://pypi.org/project/multispline-python/
 
@@ -185,7 +185,7 @@ Optimization uses robust fallback: lbfgs -> bfgs -> cg.
 - Predictor variable must be continuous
 - Performance depends on sufficient between-cluster variability
 - Not appropriate for discrete predictors or negligible random-effects variance
-- Random-intercept only (no random slopes in v0.1.3)
+- Random-intercept only (no random slopes in v0.1.4)
 - Continuous outcomes only
 
 ---
@@ -221,7 +221,7 @@ MIT (c) Subir Hait
 If you use multispline in your research, please cite:
 ```
 Hait, Subir. 2026. MultiSpline for Python: Nonlinear multilevel
-spline modeling. Version 0.1.3.
+spline modeling. Version 0.1.4.
 https://github.com/causalfragility-lab/MultiSpline-Python
 ```
 
@@ -232,7 +232,7 @@ https://github.com/causalfragility-lab/MultiSpline-Python
   title   = {MultiSpline for Python: Nonlinear multilevel
              spline modeling},
   year    = {2026},
-  version = {0.1.3},
+  version = {0.1.4},
   url     = {https://github.com/causalfragility-lab/MultiSpline-Python}
 }
 ```
