@@ -1,14 +1,14 @@
-﻿# MultiSpline for Python
+# MultiSpline for Python
 
 Nonlinear multilevel spline modeling for Python.
 
-[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/causalfragility-lab/MultiSpline-Python)
+[![Version](https://img.shields.io/badge/version-0.1.3-blue.svg)](https://github.com/causalfragility-lab/MultiSpline-Python)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
 
-**Version:** 0.1.0 (development release)
+**Version:** 0.1.3
 **License:** MIT
-**PyPI:** coming Summer 2026
+**PyPI:** https://pypi.org/project/multispline-python/
 
 ---
 
@@ -27,14 +27,14 @@ single interface, improving workflow efficiency and reproducibility.
 
 ## Installation
 
+### PyPI (recommended):
+```bash
+pip install multispline-python
+```
+
 ### Development version (GitHub):
 ```bash
 pip install git+https://github.com/causalfragility-lab/MultiSpline-Python.git
-```
-
-### PyPI (coming Summer 2026):
-```bash
-pip install multispline
 ```
 
 ### Dependencies:
@@ -65,7 +65,7 @@ model.plot()
 
 ## Examples
 
-### Example 1: Education — SES and math achievement
+### Example 1: Education - SES and math achievement
 ```python
 import numpy as np
 import pandas as pd
@@ -99,7 +99,7 @@ model.summary()
 model.plot()
 ```
 
-### Example 2: Labor economics — age and wage
+### Example 2: Labor economics - age and wage
 ```python
 np.random.seed(123)
 n = 2000
@@ -146,7 +146,7 @@ multispline automates five steps in a single interface:
 4. ICC computation from variance components
 5. Grid-based prediction and visualization
 
-Optimization uses robust fallback: lbfgs → bfgs → cg.
+Optimization uses robust fallback: lbfgs -> bfgs -> cg.
 
 ---
 
@@ -184,9 +184,8 @@ Optimization uses robust fallback: lbfgs → bfgs → cg.
 
 - Predictor variable must be continuous
 - Performance depends on sufficient between-cluster variability
-- Not appropriate for discrete predictors or negligible
-  random-effects variance
-- Random-intercept only (no random slopes in v0.1.0)
+- Not appropriate for discrete predictors or negligible random-effects variance
+- Random-intercept only (no random slopes in v0.1.3)
 - Continuous outcomes only
 
 ---
@@ -213,7 +212,7 @@ GitHub: https://github.com/causalfragility-lab
 
 ## License
 
-MIT © Subir Hait
+MIT (c) Subir Hait
 
 ---
 
@@ -222,7 +221,7 @@ MIT © Subir Hait
 If you use multispline in your research, please cite:
 ```
 Hait, Subir. 2026. MultiSpline for Python: Nonlinear multilevel
-spline modeling. Version 0.1.0.
+spline modeling. Version 0.1.3.
 https://github.com/causalfragility-lab/MultiSpline-Python
 ```
 
@@ -233,7 +232,7 @@ https://github.com/causalfragility-lab/MultiSpline-Python
   title   = {MultiSpline for Python: Nonlinear multilevel
              spline modeling},
   year    = {2026},
-  version = {0.1.0},
+  version = {0.1.3},
   url     = {https://github.com/causalfragility-lab/MultiSpline-Python}
 }
 ```

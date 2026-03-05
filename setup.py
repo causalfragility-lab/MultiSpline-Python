@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="multispline",
-    version="0.1.0",
+    name="multispline-python",
+    version="0.1.3",
     author="Subir Hait",
     author_email="haitsubi@msu.edu",
     description="Nonlinear multilevel spline modeling",
@@ -14,7 +14,7 @@ setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-        "Topic :: Scientific/Engineering :: Statistics",
+        "Topic :: Scientific/Engineering :: Mathematics",
         "Intended Audience :: Science/Research",
     ],
     python_requires=">=3.8",
